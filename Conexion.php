@@ -7,10 +7,10 @@
 		private $Connection;
 	
 		public function __construct(){
-			$this-> Host = "sakila.mysql.database.azure.com";
-            $this-> User = "ahc2806@sakila";
-            $this-> Password = "CiA28069";
-			$this-> Database = "sakila";		
+			$this-> Host = "bcvfwnl2tp5r6o1vpvm1-mysql.services.clever-cloud.com";
+            $this-> User = "u4nftxxpvbnz8ycv";
+            $this-> Password = "gv68xgg5RnRLQ5EgjZ0M";
+			$this-> Database = "bcvfwnl2tp5r6o1vpvm1";
 		}
 
 		public function OpenConnection() {
@@ -33,11 +33,9 @@
 		}
 	}
 	/*$Obj = new Conexion();
-	$Obj-> OpenConnection();
-	if($Obj-> GetConnection()){
-		echo "Connection ok";
-	}
-	else{
-		echo "Connection false";
-	}*/
+    $Obj-> OpenConnection();
+    if($Obj-> GetConnection())
+        echo "Ok";
+    else 
+        echo "Error";*/
  ?>
